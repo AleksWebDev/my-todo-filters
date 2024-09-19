@@ -87,3 +87,28 @@ header{
 }
 
 
+/* task container */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.task{
+    margin-top: 20px;
+
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    max-width: 300px;
+    width: 100%;
+}
+
+.done{
+    background-color: red;
+}
+
