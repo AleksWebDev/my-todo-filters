@@ -109,6 +109,7 @@ header{
 }
 
 .done{
-    background-color: red;
+    border: 2px solid red;
+    background-color: aqua;
 }
 
